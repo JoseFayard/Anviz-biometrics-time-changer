@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Anviz.SDK/2.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Anviz.SDK.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Anviz.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Anviz.SDK/2.0.9": {
+      "sha512": "qxZl/BH8Q0ulkmzQTseCZr7BfjagXlFamCiBL2JlqsaVV8uG3/ivrux8CdBLI7lVDUSjqbi979gpQslNMEEdCA==",
+      "type": "package",
+      "path": "anviz.sdk/2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Anviz.SDK.2.0.9.nupkg.sha512",
+        "Anviz.SDK.nuspec",
+        "lib/netstandard2.0/Anviz.SDK.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Anviz.SDK >= 2.0.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jfreitez\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jfreitez\\Documents\\FechaHoraAnviz\\FechaHoraAnviz.csproj",
+      "projectName": "FechaHoraAnviz",
+      "projectPath": "C:\\Users\\jfreitez\\Documents\\FechaHoraAnviz\\FechaHoraAnviz.csproj",
+      "packagesPath": "C:\\Users\\jfreitez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jfreitez\\Documents\\FechaHoraAnviz\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jfreitez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Anviz.SDK": {
+            "target": "Package",
+            "version": "[2.0.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
