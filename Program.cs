@@ -11,7 +11,7 @@ namespace FechaHoraAnviz {
             var manager = new AnvizManager ();
             var contador = 1;
             // Lista con las IP de los captahuellas
-            List<string> direccionesIp = new List<string> () { "192.168.100.240", "192.168.100.241" };
+            List<string> direccionesIp = new List<string> () { "10.1.1.1", "10.1.1.2" };
             // Recorremos la lista para actualizar la hora de los captahuellas
             foreach (var ip in direccionesIp) {
                 await ActualizarHora (manager, ip, contador);
